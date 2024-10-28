@@ -712,7 +712,9 @@
 /* MEDIA QUERY */
 /* MEDIA QUERY */
 /* min-width: 480px */
-@media (min-width: 0px) and (max-width: 1024px) {
+
+/* reduce margin for breakpoint */
+@media (min-width: 480px) and (max-width: 1024px) {
     .logoContainer h1{
         font-size: 1.4rem;
     }
@@ -798,4 +800,5 @@
     /* change certificate height */
     /* change about me to coulmn */
     /* change project to single view */
+    /* reduce overall margin */
 }
