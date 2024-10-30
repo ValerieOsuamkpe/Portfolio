@@ -95,6 +95,24 @@
     transition: border 0.3s ease;
 }
 
+/* MENU */
+.menuIcon, .closeIcon{
+    cursor: pointer;
+    border: none;
+    padding: 0.8rem 1rem;
+    border-radius: 0.3rem;
+    background-color: #c1e4f9;
+    color: #0880DD;
+}
+
+.side-menu{
+    width: 70%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: ;
+    background-color: #07A5C5;
+}
 
 /* HERO SECTION */
 .heroContainer{
@@ -365,7 +383,7 @@
     flex-direction: row;
     justify-content: space-between;
     flex-wrap: wrap;
-    align-items: start;
+    align-items: stretch;
     /* column-gap: 1.35rem; */
     row-gap: 1rem;
     /* padding: 2rem; */
@@ -380,6 +398,7 @@
     border-radius: 0.8rem;
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
     row-gap: 0.5rem;
 }
 
@@ -691,6 +710,8 @@
     height: auto;
     display: flex;
     flex-direction: column;
+    justify-items: start;
+    align-items: end;
     row-gap: 0.6rem;
 }
 
@@ -716,18 +737,28 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    column-gap: 1rem;
     border-radius: 0.5rem;
 }
 
-.socialsContainer img:hover{
+.DesignedAndDeveloped p i{
+        color: #0ACFF6;
+        padding: 0 0.25rem;
+    }
+
+.socialsContainer a i{
+    font-size: 1.5rem;
+    color: #042362;
+}
+
+.socialsContainer i:hover{
     border-radius: 0.3rem;
-    border: #0ACFF6 1px solid;
+    color: #07A5C5;
 }
 
 a button:hover{
     border: 2px solid #0ACFF6;
 }
-
 
 
 /* MEDIA QUERY */
@@ -793,6 +824,7 @@ a button:hover{
     .certMain{
         width: 100%;
         padding: 0 5rem;
+        column-gap: 1rem;
     }
     
     .blueborder{
@@ -909,6 +941,18 @@ a button:hover{
     .whitespace img{
         height: 150px;
     }
+    /* Footer */
+    .footer{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .rightFoot{
+        align-items: center;
+    }
+    .leftFoot h2{
+        font-size: 1.2rem;
+    }
 }
 
 
@@ -979,7 +1023,3 @@ a button:hover{
     }
 }
     /* change to hamburger */
-    /* change certificate height */
-    /* change about me to coulmn */
-    /* change project to single view */
-    /* reduce overall margin */
