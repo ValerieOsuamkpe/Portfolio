@@ -114,6 +114,10 @@
     background-color: #07A5C5;
 }
 
+.menuIcon, .side-menu{
+    display: none;
+}
+
 /* HERO SECTION */
 .heroContainer{
     width: 100%;
@@ -926,6 +930,18 @@ a button:hover{
     .whitespace img{
         height: 180px;
     }
+    /* Footer */
+    .footer{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .rightFoot{
+        align-items: center;
+    }
+    .leftFoot h2{
+        font-size: 1.2rem;
+    }
 }
 
 
@@ -940,18 +956,6 @@ a button:hover{
     }
     .whitespace img{
         height: 150px;
-    }
-    /* Footer */
-    .footer{
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-    }
-    .rightFoot{
-        align-items: center;
-    }
-    .leftFoot h2{
-        font-size: 1.2rem;
     }
 }
 
