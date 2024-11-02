@@ -298,6 +298,10 @@
     font-weight: 700;
 }
 
+.descriptionContainer p a{
+    color: #0880DD;
+}
+
 .secondDownloadButtonContainer a button{
     background: none;
     background-color: #042362;
